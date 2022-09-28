@@ -1,0 +1,19 @@
+{
+  "name": "auth-api",
+  "version": "1.0.0",
+  "description": "Scenario: Allow users to sign-up, log-in, and be given access capabilities based on roles. Imagine a multi-story building with access control depending on rooms, floor, and purpose. For example, the first floor could be open to the general public, the second and third floor are open to all employees, and the top floor is only open to management. Each floor also has various rooms and spaces with levels of access. The cafeteria and bathrooms have no access requirements, the telecoms room is only accessible by IT, the fire equipment room by the fire department, etc...Like I mentioned, the building is open to the general public, this could be analogues to the homepage itself. Now, consider a user sign-up as an employee with a key card. This gives the person access to the second floor and the employee spaces, but *only* those spaces. The card can be upgraded accordingly to allow the employee to enter the more restricted spaces, and this is akin to access control with assigned roles. This README will describe the process and requirements to assign roles",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cherrera1208/auth-api.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cherrera1208/auth-api/issues"
+  },
+  "homepage": "https://github.com/cherrera1208/auth-api#readme"
+}
